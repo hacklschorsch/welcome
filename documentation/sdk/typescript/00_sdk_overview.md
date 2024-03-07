@@ -200,6 +200,8 @@ graph LR
 
 ### 2.3 WebAssembly Initialization
 
+❗initializeWasm is deprecated, you no longer need to use it
+
 ❗WebAssembly must be initialized before any SDK functions can be called.
 
 Aleo programs are made zero knowledge through the usage of `ZkSnarks`. The Rust code behind Aleo programs and the ZkSnarks
